@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Lakefront">
+  <defs>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d4a52" />
+      <stop offset="55%" stop-color="#2f6b62" />
+      <stop offset="100%" stop-color="#102b31" />
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="15" fill="url(#lake)" />
+  <rect width="64" height="64" rx="15" fill="url(#sheen)" />
+
+  <g fill="none" stroke="#6fd3c0" stroke-linecap="round">
+    <path d="M13 40c5-4 9-4 14 0s9 4 14 0 9-4 10-1" stroke-width="3.2" stroke-opacity="0.95" />
+    <path d="M15 48c4.5-3.4 8-3.4 12.5 0s8 3.4 12.5 0 6.5-2.6 8-1.4" stroke-width="2.6" stroke-opacity="0.6" />
+  </g>
+
+  <circle cx="32" cy="24" r="8.5" fill="#ffe0ae" fill-opacity="0.92" />
+  <path d="M6 33h52" stroke="#0d2b34" stroke-opacity="0.25" stroke-width="1.5" />
+</svg>

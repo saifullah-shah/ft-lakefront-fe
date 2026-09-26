@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vercel
+.turbo
+
+# Unoptimized source art. The served derivatives live in
+# apps/web/public/images/ and are what the site actually uses.
+ChatGPT Image*.png
